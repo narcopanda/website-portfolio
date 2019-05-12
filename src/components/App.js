@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Projects from './Projects';
 import Profiles from './SocialProfiles';
-import profile from '../assets/profile.png.jpg'
+// import profile from '../assets/profile.png.jpg'
 import Title from './Title';
 import Educations from './Education'
 import {Button, ButtonToolbar} from 'react-bootstrap';
@@ -20,7 +20,7 @@ class App extends Component{
   render() {
         return(
             <div>
-              <img src={profile} alt='profile' className='profile'/>
+              {/* <img src={profile} alt='profile' className='profile'/> */}
                 <h1>Hello!</h1>
                 <p>My name is Sean. </p>
                 <Title />
