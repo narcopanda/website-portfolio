@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/website-portfolio/static/css/main.88eb2007.chunk.css",
+    "main.js": "/website-portfolio/static/js/main.d5a202ef.chunk.js",
+    "main.js.map": "/website-portfolio/static/js/main.d5a202ef.chunk.js.map",
+    "runtime~main.js": "/website-portfolio/static/js/runtime~main.2451c7bc.js",
+    "runtime~main.js.map": "/website-portfolio/static/js/runtime~main.2451c7bc.js.map",
+    "static/js/2.0346226e.chunk.js": "/website-portfolio/static/js/2.0346226e.chunk.js",
+    "static/js/2.0346226e.chunk.js.map": "/website-portfolio/static/js/2.0346226e.chunk.js.map",
+    "index.html": "/website-portfolio/index.html",
+    "precache-manifest.7350e601b87399d8ccf1bd76226afcc5.js": "/website-portfolio/precache-manifest.7350e601b87399d8ccf1bd76226afcc5.js",
+    "service-worker.js": "/website-portfolio/service-worker.js",
+    "static/css/main.88eb2007.chunk.css.map": "/website-portfolio/static/css/main.88eb2007.chunk.css.map",
+    "static/media/index.css": "/website-portfolio/static/media/roboto-condensed.light.cf4449c1.ttf",
+    "static/media/email_icon.png": "/website-portfolio/static/media/email_icon.fd99f8e3.png",
+    "static/media/github_icon.png": "/website-portfolio/static/media/github_icon.e2a62886.png",
+    "static/media/project1.png": "/website-portfolio/static/media/project1.bf56edc6.png",
+    "static/media/project2.png": "/website-portfolio/static/media/project2.f7e79c7d.png"
+  }
+}
