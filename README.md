@@ -1,5 +1,7 @@
-#URL
+# URL
 https://portfolio-240501.appspot.com/
+## Google cloud
+To redeploy use : gcloud app deploy
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
