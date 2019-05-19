@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Button} from 'react-bootstrap'
 import axios from 'axios';
 
 const Joke = ({joke}) => {
@@ -35,7 +36,7 @@ class Jokes extends Component {
         <Joke joke={this.state.joke}/>
         <hr />
       <h3>Want ten new jokes</h3>
-      <button onClick={this.getJokes}>Click me</button>
+      <Button varinat="primary" onClick={this.getJokes}>Click me</Button>
       {
         this.state.jokes.map(x => {
           return <Joke key={x.id} joke={x} />

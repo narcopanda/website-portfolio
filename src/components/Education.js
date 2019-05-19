@@ -8,7 +8,7 @@ const Education = props => {
             <h3>{school}</h3> 
             <p>{degree}</p>
             <p>{grad}</p>
-            <h3>Relavinte Course work</h3>
+            <h3>Relevant Course work</h3>
             <p>{course}</p>
 
         </div>

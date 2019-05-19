@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
 import Projects from './Projects';
 import Profiles from './SocialProfiles';
-// import profile from '../assets/profile.png.jpg'
+import profile from '../assets/profile.jpg'
 import Title from './Title';
 import Educations from './Education'
+// eslint-disable-next-line
 import {Button, ButtonToolbar} from 'react-bootstrap';
 
 class App extends Component{
@@ -20,7 +21,7 @@ class App extends Component{
   render() {
         return(
             <div>
-              {/* <img src={profile} alt='profile' className='profile'/> */}
+              <img src={profile} alt='profile' className='profile'/>
                 <h1>Hello!</h1>
                 <p>My name is Sean. </p>
                 <Title />
@@ -28,11 +29,11 @@ class App extends Component{
                 {
                   this.state.displayBio ? (
                     <div>
-                      <p>I hate my life</p>
-                      <p>another line</p>
-                      <p>next line</p>
+                      <p>I'm from Albany, New York</p>
+                      <p>I love working on challenging projets</p>
+                      <p>This website was made with React</p>
                       {/* <ButtonToolbar> */}
-                      <Button variant="secondary" onClick={this.toggleDisplayBio}>Show less</Button>
+                      <Button variant="primary" onClick={this.toggleDisplayBio}>Show less</Button>
                       {/* </ButtonToolbar> */}
 
                     </div>

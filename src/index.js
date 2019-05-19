@@ -5,6 +5,7 @@ import createBrowserHistory from 'history/createBrowserHistory'
 import App from './components/App'
 import Header from './components/Header';
 import Jokes from './components/Jokes'
+import Resume from './components/Pdf'
 import './index.css'
 
 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Switch>
       <Route exact path='/' render={() => <Header><App /></Header>}/>
       <Route path='/jokes' render={() => <Header><Jokes /></Header>}/>
+      <Route path='/resume' render={() => <Header><Resume /></Header>}/>
     </Switch>
   </Router>,
   document.getElementById('root'))

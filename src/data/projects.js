@@ -14,7 +14,7 @@ const PROJECTS = [
     id: 2,
     title: 'Assembler',
     description: 'Built an assembler in Scala for a custom assembly language that takes in input and parses the instruction into binary.',
-    link: 'https://github.com/narcopanda',
+    link: 'https://github.com/narcopanda/Scala-Assembler',
     image: project2
 
   },
